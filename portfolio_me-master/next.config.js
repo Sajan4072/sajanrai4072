@@ -1,7 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
+  reactStrictMode: flase,
+  swcMinify: false,
 async headers() {
   const headers = [];
     headers.push({
