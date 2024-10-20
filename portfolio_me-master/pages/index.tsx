@@ -110,7 +110,7 @@ const Home = ({ changeNav, animate }: { changeNav: (nav: string) => void, animat
               <li className="md:p-0 p-3 cursor-pointer" onClick={() => { changeNav(navItem[1]) }}><a className="nav-link" href="#about">About</a></li>
               <li className="md:p-0 p-3 cursor-pointer" onClick={() => { changeNav(navItem[2]) }}><a className="nav-link" href="#resume">Resume</a></li>
               <li className="md:p-0 p-3 cursor-pointer" onClick={() => { changeNav(navItem[4]) }}><a className="nav-link" href="#portfolio">Portfolio</a></li>
-              <li className="md:p-0 p-3 cursor-pointer" onClick={() => { changeNav(navItem[6]) }}><a className="nav-link" href="#portfolio">Project</a></li>
+              {/* <li className="md:p-0 p-3 cursor-pointer" onClick={() => { changeNav(navItem[6]) }}><a className="nav-link" href="#portfolio">Project</a></li> */}
               {/* <li className="md:p-0 p-3 cursor-pointer" onClick={() => { changeNav(navItem[5]) }}><a className="nav-link" href="#blog">Blog</a></li> */}
               <li className="md:p-0 p-3 cursor-pointer" onClick={() => { changeNav(navItem[3]) }}><a className="nav-link" href="#contact">Contact</a></li>
             </ul>
