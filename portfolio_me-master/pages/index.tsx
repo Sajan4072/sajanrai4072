@@ -110,7 +110,7 @@ const Home = ({ changeNav, animate }: { changeNav: (nav: string) => void, animat
               <li className="md:p-0 p-3 cursor-pointer" onClick={() => { changeNav(navItem[1]) }}><a className="nav-link" href="#about">About</a></li>
               <li className="md:p-0 p-3 cursor-pointer" onClick={() => { changeNav(navItem[2]) }}><a className="nav-link" href="#resume">Resume</a></li>
               <li className="md:p-0 p-3 cursor-pointer" onClick={() => { changeNav(navItem[4]) }}><a className="nav-link" href="#portfolio">Portfolio</a></li>
-              {/* <li className="md:p-0 p-3 cursor-pointer" onClick={() => { changeNav(navItem[6]) }}><a className="nav-link" href="#portfolio">Project</a></li> */}
+              <li className="md:p-0 p-3 cursor-pointer" onClick={() => { changeNav(navItem[6]) }}><a className="nav-link" href="#portfolio">Project</a></li>
               {/* <li className="md:p-0 p-3 cursor-pointer" onClick={() => { changeNav(navItem[5]) }}><a className="nav-link" href="#blog">Blog</a></li> */}
               <li className="md:p-0 p-3 cursor-pointer" onClick={() => { changeNav(navItem[3]) }}><a className="nav-link" href="#contact">Contact</a></li>
             </ul>
@@ -191,9 +191,9 @@ const Aboutme = ({ nav, changeNav, animate }: { nav: string, changeNav: (nav: st
             <p className='text-gray-400 animate-slideup'>A Software engineer with keen interest and proficiency in Backends, Microservices, Devops and more. I am based at Toronto,Onatrio.<br/><br/>
               I have experience with various backend technological stacks and practices and I currently work primarily on Django and Devops projects to build scalable backend solutions.<br/>
 
-              Get to know about me more on my <a href="https://www.linkedin.com/in/sajan-rai-4a40b9171/" target='blank'><b>Linkedin</b></a> or my <a href="https://github.com/Sajan4072" target='blank'><b>Github</b></a> <br/><br/>
+              Get to know about me more on my <a href="https://www.linkedin.com/in/sajan-rai-4a40b9171/" target="blank"><b>Linkedin</b></a> or my <a href="https://github.com/Sajan4072" target="blank"><b>Github</b></a> <br/><br/>
 
-              I am currently pursuing my PostGraduate Degree in Cloud Computing ,I've worked previously at <a href="https://www.susankya.com/" target="_blank"><b>Susankya Global LLC</b></a>, <a href="https://www.uxlsoft.com/" target="_blank"><b>UniAxial Softwares</b></a>, <a href="https://www.techup.com.np/" target="_blank"><b>TechUp Pvt Ltd</b></a>, and more. </p>
+              I am currently pursuing my PostGraduate Degree in Cloud Computing ,I have worked previously at <a href="https://www.susankya.com/" target="blank"><b>Susankya Global LLC</b></a>, <a href="https://www.uxlsoft.com/" target="blank"><b>UniAxial Softwares</b></a>, <a href="https://www.techup.com.np/" target="blank"><b>TechUp Pvt Ltd</b></a>, and more. </p>
             <hr className='my-5 text-gray-400' />
             <div className='grid grid-cols-4 md:grid-cols-2 gap-3'>
 
