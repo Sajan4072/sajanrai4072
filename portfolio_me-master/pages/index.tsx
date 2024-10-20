@@ -181,7 +181,7 @@ const Aboutme = ({ nav, changeNav, animate }: { nav: string, changeNav: (nav: st
       <div className='grid grid-cols-12 md:gap-10  m-5 md:m-10'>
         <div className="col-span-12 md:col-span-5 ">
           <div className='md:mx-5  overflow-hidden rounded-md shadow-custom'>
-            <img src="/mypicture.JPEG" className='w-50 hover:scale-[1.2]  hover:transition hover:delay-300 hover:ease-in-out scale-[1]' alt="" />
+            <img src="/mypicture.jpeg" className='w-50 hover:scale-[1.2]  hover:transition hover:delay-300 hover:ease-in-out scale-[1]' alt="" />
           </div>
         </div>
         <div className='col-span-12 md:col-span-7'>
