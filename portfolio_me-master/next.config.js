@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: flase,
+  reactStrictMode: true,
   swcMinify: false,
 async headers() {
   const headers = [];
