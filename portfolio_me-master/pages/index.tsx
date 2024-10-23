@@ -171,7 +171,7 @@ const Aboutme = ({ nav, changeNav, animate }: { nav: string, changeNav: (nav: st
     },
     {
       title: 'From',
-      description: 'Toronto, Ontarion,Kathmandu',
+      description: 'Toronto, Ontario,Canada',
       className: ''
     }
 
