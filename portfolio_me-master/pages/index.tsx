@@ -69,7 +69,7 @@ const Common = () => {
 
 
 const Home = ({ changeNav, animate }: { changeNav: (nav: string) => void, animate: animateEnum }) => {
-  const skillType = [' ', 'Backend Developer', '', 'Cloud Developer', '', 'Freelancer']
+  const skillType = [' ', 'Cloud and IT Infrastructure Professional', '', 'Devops Engineer', '', 'Backend Developer']
   const [skill, setSkill] = useState("")
   const [closeNav, setCloseNav] = useState<boolean>(true);
   const shuffle = useCallback(() => {
