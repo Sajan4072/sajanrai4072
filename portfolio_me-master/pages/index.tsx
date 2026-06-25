@@ -188,12 +188,19 @@ const Aboutme = ({ nav, changeNav, animate }: { nav: string, changeNav: (nav: st
           <div className='md:mx-4 mt-4 md:mt-0'>
             <h1 className='pb-4 text-lg text-green-500 text-[24px] animate-slideup'> Hi!</h1>
             <h1 className='pb-4 font-bold text-xl md:text-3xl animate-slideup'>I{"\'"}am Sajan Rai</h1>
-            <p className='text-gray-400 animate-slideup'>A Software engineer with keen interest and proficiency in Backends, Microservices, Devops and more. I am based at Toronto,Onatrio.<br/><br/>
-              I have experience with various backend technological stacks and practices and I currently work primarily on Django and Devops projects to build scalable backend solutions.<br/>
+            <p className='text-gray-400 animate-slideup'>IT and cloud infrastructure professional based in Toronto with a background spanning systems support, DevOps engineering, and Backend development.<br/><br/>
 
-              Get to know about me more on my <a href="https://www.linkedin.com/in/sajan-rai-4a40b9171/" target="blank"><b>Linkedin</b></a> or my <a href="https://github.com/Sajan4072" target="blank"><b>Github</b></a> <br/><br/>
+  I hold a Bachelor of Information Technology and a Post Graduate Diploma in DevOps for Cloud Computing from Lambton College.<br/><br/>
 
-              I am currently pursuing my PostGraduate Degree in Cloud Computing ,I have worked previously at <a href="https://www.susankya.com/" target="blank"><b>Susankya Global LLC</b></a>, <a href="https://www.uxlsoft.com/" target="blank"><b>UniAxial Softwares</b></a>, <a href="https://www.techup.com.np/" target="blank"><b>TechUp Pvt Ltd</b></a>, and more. </p>
+  My experience covers Windows Server and Linux administration, networking fundamentals (TCP/IP, DNS, DHCP, VPN), Active Directory, virtualization, and cloud platforms including AWS, GCP, and Azure.<br/><br/>
+
+  My DevOps background — working with Docker, Kubernetes, Terraform, CI/CD pipelines, and Ansible — gives me a deeper understanding of infrastructure and systems than most support professionals. I don{"'"}t just troubleshoot issues; I understand what{"'"}s running underneath.<br/><br/>
+
+  Open to IT Support, Systems Administration, Cloud Support, Junior DevOps, and Backend Developer roles in Canada.<br/><br/>
+
+  I have worked previously at <a href="https://www.susankya.com/" target="blank"><b>Susankya Global LLC</b></a>, <a href="https://www.uxlsoft.com/" target="blank"><b>UniAxial Softwares</b></a>, <a href="https://www.techup.com.np/" target="blank"><b>TechUp Pvt Ltd</b></a>, <b>Yuvoice</b>, and <a href="https://www.freegeektoronto.org/" target="blank"><b>Free Geek Toronto</b></a>, where I gained hands-on experience in hardware diagnostics, device imaging, and end-user support.<br/><br/>
+
+  Get to know about me more on my <a href="https://www.linkedin.com/in/sajan-rai4072/" target="blank"><b>Linkedin</b></a> or my <a href="https://github.com/Sajan4072" target="blank"><b>Github</b></a></p>
             <hr className='my-5 text-gray-400' />
             <div className='grid grid-cols-4 md:grid-cols-2 gap-3'>
 
