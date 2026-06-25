@@ -43,6 +43,29 @@ const educationData: AcademicInterface[] = [
 
 const experienceData: ExperienceInterface[] = [
   {
+    office: "Free Geek Toronto, Toronto, Canada",
+    experience: "07/2025 - 09/2025",
+    responsibility:
+      "Diagnostics and hardware repair on 40+ desktop/laptop systems; Windows 10/11 installation and configuration; system imaging and QA before redeployment; device inventory tracking.",
+    description: "",
+    roles: "Technology Reuse Volunteer [07/2025 - 09/2025]",
+    site: "",
+    stack: "Windows 10/11, Hardware Diagnostics, System Imaging",
+    type: [Type.Desktop],
+    workinghour: "Volunteer",
+  },
+  {
+    office: "Yuvoice, Toronto, Canada",
+    experience: "11/2024 - 06/2025",
+    responsibility:
+      "Supported production web app maintenance, user access issues, and platform troubleshooting; WordPress administration; deployment coordination via Jira.",
+    description: "",
+    roles: "Full Stack Developer [11/2024 - 06/2025]",
+    stack: "WordPress, Jira, Application Support",
+    type: [Type.Web],
+    workinghour: "Full Time",
+  },
+  {
     office: "Uniaxle software Pvt Ltd, Kathmandu, Nepal",
     experience: "05/2022 - 06/2023",
     responsibility:
@@ -79,6 +102,18 @@ const experienceData: ExperienceInterface[] = [
     stack: "Django,Flask",
     type: [Type.Web],
     workinghour: "full time",
+  },  
+  {
+    office: "Mokshya Tech & I.T. Solutions, Kathmandu, Nepal",
+    experience: "09/2020 - 03/2021",
+    responsibility:
+      "Tier 1/2 technical support for 50+ end users; AD user management, password resets, onboarding/offboarding; TCP/IP, DNS, DHCP, VPN, Wi-Fi troubleshooting; desktop imaging and workstation setup.",
+    description: "",
+    roles: "IT Support Technician [09/2020 - 03/2021]",
+    stack: "Windows 10, Active Directory, TCP/IP, VPN, ITSM Ticketing",
+    type: [Type.Desktop],
+    workinghour: "Full Time",
   },
+
 ];
 export { educationData, experienceData };
