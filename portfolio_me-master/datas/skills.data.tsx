@@ -1,8 +1,8 @@
 import React from "react"; 
 import { AiFillGitlab, AiOutlineAntDesign } from 'react-icons/ai'
 import { BsGithub } from "react-icons/bs";
-import { FaAngular, FaJava, FaLaravel, FaNodeJs, FaReact, FaDocker,FaPython, FaGit, FaSass } from "react-icons/fa";
-import { SiJavascript, SiJquery, SiMongodb, SiMysql, SiNestjs, SiPhp, SiSpringboot, SiTailwindcss, SiTypescript, SiGooglecloud, SiMicrosoftazure, SiDjango, SiFlask, SiScikitlearn, SiPostgresql, SiRedis, SiRabbitmq, SiTerraform, SiSelenium, SiAnsible, SiTensorflow } from "react-icons/si";
+import { FaAngular, FaJava, FaLaravel, FaNodeJs, FaReact, FaDocker,FaPython, FaGit, FaSass,FaWindows, FaServer, FaNetworkWired, FaHeadset, FaTicketAlt } from "react-icons/fa";
+import { SiJavascript, SiJquery, SiMongodb, SiMysql, SiNestjs, SiPhp, SiSpringboot, SiTailwindcss, SiTypescript, SiGooglecloud, SiMicrosoftazure, SiDjango, SiFlask, SiScikitlearn, SiPostgresql, SiRedis, SiRabbitmq, SiTerraform, SiSelenium, SiAnsible, SiTensorflow,SiPowershell,SiJira, SiMicrosoftteams } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 import { DiAws } from "react-icons/di"; // AWS Icon
 
@@ -25,6 +25,30 @@ const frameworkData: SkillInteface[] = [
 
 let size = 40
 const primarySkill: Omit<SkillInteface, 'title' | 'percentage'>[] = [
+  {
+    icon: <FaWindows color="#00ADEF" size={size} /> // Windows Server / Windows 10-11
+  },
+  {
+    icon: <FaServer color="#4B5563" size={size} /> // Active Directory / Server Administration
+  },
+  {
+    icon: <FaNetworkWired color="#2D9CDB" size={size} /> // Networking / TCP-IP / DNS-DHCP
+  },
+  {
+    icon: <SiPowershell color="#5391FE" size={size} /> // PowerShell scripting
+  },
+  {
+    icon: <SiMicrosoftteams color="#6264A7" size={size} /> // Microsoft 365 / Teams / SharePoint
+  },
+  {
+    icon: <SiJira color="#0052CC" size={size} /> // Ticketing: Jira / ServiceNow / Freshdesk
+  },
+  {
+    icon: <FaHeadset color="#16A34A" size={size} /> // Service Desk / End-User Support
+  },
+  {
+    icon: <FaTicketAlt color="#EA580C" size={size} /> // Incident Management / SLA Resolution
+  },
   {
     icon: <BsGithub color="#181717" size={size} /> // GitHub
   },
